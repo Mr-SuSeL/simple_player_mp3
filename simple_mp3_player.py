@@ -17,10 +17,10 @@ def stop():
     pygame.mixer.music.stop()
 
 
-play_button = Button(root, text='PLAY', command=play)
+play_button = Button(root, text='PLAY', font=('Helvetica', 32), command=play)
 play_button.pack(pady=20)
 
-stop_button = Button(root, text='STOP', command=stop)
+stop_button = Button(root, text='STOP', font=('Helvetica', 22), command=stop)
 stop_button.pack(pady=20)
 
 root.mainloop()
