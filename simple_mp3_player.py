@@ -3,7 +3,8 @@ import pygame
 
 root = Tk()
 root.title('music player')
-root.iconbitmap('music-icon.jpg')
+root.iconbitmap('music.ico')
+root.geometry("500x400")
 
 pygame.mixer.init()
 
@@ -14,3 +15,4 @@ def play():
 def stop():
     pass
 
+root.mainloop()
