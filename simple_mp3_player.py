@@ -15,4 +15,11 @@ def play():
 def stop():
     pass
 
+
+play_button = Button()
+play_button.pack()
+
+stop_button = Button()
+stop_button.pack()
+
 root.mainloop()
